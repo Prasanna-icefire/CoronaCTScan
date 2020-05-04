@@ -45,6 +45,6 @@ for dense_layer in dense_layers:
             model.add(Dense(1))
             model.add(Activation('sigmoid'))
             model.compile(loss="binary_crossentropy",optimizer="adam",metrics=['accuracy'])
-            model.fit(np.array(X),np.array(y), batch_size=3,epochs = 11, validation_split=0,callbacks=[tensorboard])
+            model.fit(np.array(X),np.array(y), batch_size=3,epochs = 100, validation_split=0,callbacks=[tensorboard])
 
             model.save('corona.model')
