@@ -2,7 +2,7 @@
 import os
 #providing the path of the folder
 #r = raw string literal
-folder_path = (r"/home/icefire/ML/CORONA/CoronaCTScan/Data_Images/Positive")
+folder_path = (r"/home/icefire/ML/CORONA/CoronaCTScan/Data_Images/Negative")
 #using listdir() method to list the files of the folder
 test = os.listdir(folder_path)
 #taking a loop to remove all the images
