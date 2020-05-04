@@ -22,67 +22,49 @@ Epoch 9/10
 671/671 [==============================] - 1s 1ms/sample - loss: 0.4337 - accuracy: 0.7794 - val_loss: 0.5205 - val_accuracy: 0.6933
 Epoch 10/10
 671/671 [==============================] - 1s 1ms/sample - loss: 0.4247 - accuracy: 0.8003 - val_loss: 0.5707 - val_accuracy: 0.7067
+ICREASE EPOCHS AND TEST....70 percent
+Epoch 11/11
+708/708 [==============================] - 1s 2ms/sample - loss: 0.3551 - accuracy: 0.8220 - val_loss: 0.5604 - val_accuracy: 0.8158
+THE BEST!
 
 
 
 
 
-2-conv-256-nodes-2-dense
+
+
+
+
+
+2-conv-256-nodes-4-dense     EPOCH 7 
+Epoch 11/11
+708/708 [==============================] - 4s 6ms/sample - loss: 0.3444 - accuracy: 0.8376 - val_loss: 0.8698 - val_accuracy: 0.7632
 Train on 671 samples, validate on 75 samples
 Epoch 1/10
-2020-05-04 16:13:33.564494: I tensorflow/core/profiler/lib/profiler_session.cc:184] Profiler session started.
- 13/671 [..............................] - ETA: 32s - loss: 0.6948 - accuracy: 0.46152020-05-04 16:13:33.597137: I tensorflow/core/platform/default/device_tracer.cc:588] Collecting 136 kernel records, 12 memcpy records.
-671/671 [==============================] - 2s 4ms/sample - loss: 0.6748 - accuracy: 0.5574 - val_loss: 0.6324 - val_accuracy: 0.5867
+2020-05-04 16:19:56.646353: I tensorflow/core/profiler/lib/profiler_session.cc:184] Profiler session started.
+ 13/671 [..............................] - ETA: 1:33 - loss: 0.6932 - accuracy: 0.38462020-05-04 16:19:56.694387: I tensorflow/core/platform/default/device_tracer.cc:588] Collecting 162 kernel records, 12 memcpy records.
+671/671 [==============================] - 4s 6ms/sample - loss: 0.6986 - accuracy: 0.5067 - val_loss: 0.6912 - val_accuracy: 0.5200
 Epoch 2/10
-671/671 [==============================] - 3s 4ms/sample - loss: 0.6103 - accuracy: 0.6468 - val_loss: 0.6374 - val_accuracy: 0.6133
+671/671 [==============================] - 2s 2ms/sample - loss: 0.6500 - accuracy: 0.6066 - val_loss: 0.6825 - val_accuracy: 0.5467
 Epoch 3/10
-671/671 [==============================] - 2s 4ms/sample - loss: 0.5632 - accuracy: 0.6826 - val_loss: 0.6187 - val_accuracy: 0.6667
+671/671 [==============================] - 2s 3ms/sample - loss: 0.5804 - accuracy: 0.7049 - val_loss: 0.5893 - val_accuracy: 0.5733
 Epoch 4/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.4856 - accuracy: 0.7556 - val_loss: 0.6010 - val_accuracy: 0.6800
+671/671 [==============================] - 1s 2ms/sample - loss: 0.4983 - accuracy: 0.7511 - val_loss: 0.5522 - val_accuracy: 0.7333
 Epoch 5/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.4161 - accuracy: 0.7884 - val_loss: 0.4978 - val_accuracy: 0.7600
+671/671 [==============================] - 1s 2ms/sample - loss: 0.4696 - accuracy: 0.7869 - val_loss: 0.5905 - val_accuracy: 0.6400
 Epoch 6/10
-671/671 [==============================] - 2s 4ms/sample - loss: 0.3382 - accuracy: 0.8405 - val_loss: 0.4715 - val_accuracy: 0.7600
+671/671 [==============================] - 1s 2ms/sample - loss: 0.3822 - accuracy: 0.8167 - val_loss: 0.6062 - val_accuracy: 0.6933
 Epoch 7/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.2923 - accuracy: 0.8614 - val_loss: 0.4945 - val_accuracy: 0.7733
+671/671 [==============================] - 1s 2ms/sample - loss: 0.3243 - accuracy: 0.8495 - val_loss: 0.5501 - val_accuracy: 0.7733
 Epoch 8/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.2254 - accuracy: 0.8972 - val_loss: 0.5241 - val_accuracy: 0.7600
+671/671 [==============================] - 2s 2ms/sample - loss: 0.2525 - accuracy: 0.8942 - val_loss: 0.5990 - val_accuracy: 0.7200
 Epoch 9/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.2148 - accuracy: 0.9270 - val_loss: 0.6140 - val_accuracy: 0.7733
+671/671 [==============================] - 2s 2ms/sample - loss: 0.2093 - accuracy: 0.9180 - val_loss: 0.8405 - val_accuracy: 0.7067
 Epoch 10/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.1220 - accuracy: 0.9642 - val_loss: 0.8459 - val_accuracy: 0.8000
+671/671 [==============================] - 3s 4ms/sample - loss: 0.2569 - accuracy: 0.8957 - val_loss: 0.7097 - val_accuracy: 0.7600
 
 
-
-2-conv-256-nodes-2-dense
-Train on 671 samples, validate on 75 samples
-Epoch 1/10
-2020-05-04 16:13:33.564494: I tensorflow/core/profiler/lib/profiler_session.cc:184] Profiler session started.
- 13/671 [..............................] - ETA: 32s - loss: 0.6948 - accuracy: 0.46152020-05-04 16:13:33.597137: I tensorflow/core/platform/default/device_tracer.cc:588] Collecting 136 kernel records, 12 memcpy records.
-671/671 [==============================] - 2s 4ms/sample - loss: 0.6748 - accuracy: 0.5574 - val_loss: 0.6324 - val_accuracy: 0.5867
-Epoch 2/10
-671/671 [==============================] - 3s 4ms/sample - loss: 0.6103 - accuracy: 0.6468 - val_loss: 0.6374 - val_accuracy: 0.6133
-Epoch 3/10
-671/671 [==============================] - 2s 4ms/sample - loss: 0.5632 - accuracy: 0.6826 - val_loss: 0.6187 - val_accuracy: 0.6667
-Epoch 4/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.4856 - accuracy: 0.7556 - val_loss: 0.6010 - val_accuracy: 0.6800
-Epoch 5/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.4161 - accuracy: 0.7884 - val_loss: 0.4978 - val_accuracy: 0.7600
-Epoch 6/10
-671/671 [==============================] - 2s 4ms/sample - loss: 0.3382 - accuracy: 0.8405 - val_loss: 0.4715 - val_accuracy: 0.7600
-Epoch 7/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.2923 - accuracy: 0.8614 - val_loss: 0.4945 - val_accuracy: 0.7733
-Epoch 8/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.2254 - accuracy: 0.8972 - val_loss: 0.5241 - val_accuracy: 0.7600
-Epoch 9/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.2148 - accuracy: 0.9270 - val_loss: 0.6140 - val_accuracy: 0.7733
-Epoch 10/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.1220 - accuracy: 0.9642 - val_loss: 0.8459 - val_accuracy: 0.8000
-3-conv-256-nodes-2-dense
-THIS MODEL SEE SPOCH 6
-
-
-3-conv-128-nodes-4-dense
+3-conv-128-nodes-4-dense        1s 2ms/sample - loss: 0.3316 - accuracy: 0.8305 - val_loss: 0.5322 - val_accuracy: 0.7632
 Train on 671 samples, validate on 75 samples
 Epoch 1/10
 2020-05-04 16:19:06.799717: I tensorflow/core/profiler/lib/profiler_session.cc:184] Profiler session started.
@@ -109,30 +91,43 @@ Epoch 10/10
 
 
 
-2-conv-256-nodes-4-dense
+
+3-conv-128-nodes-2-dense  9 epochs      708/708 [==============================] - 1s 1ms/sample - loss: 0.4991 - accuracy: 0.7401 - val_loss: 0.5196 - val_accuracy: 0.7368   
 Train on 671 samples, validate on 75 samples
 Epoch 1/10
-2020-05-04 16:19:56.646353: I tensorflow/core/profiler/lib/profiler_session.cc:184] Profiler session started.
- 13/671 [..............................] - ETA: 1:33 - loss: 0.6932 - accuracy: 0.38462020-05-04 16:19:56.694387: I tensorflow/core/platform/default/device_tracer.cc:588] Collecting 162 kernel records, 12 memcpy records.
-671/671 [==============================] - 4s 6ms/sample - loss: 0.6986 - accuracy: 0.5067 - val_loss: 0.6912 - val_accuracy: 0.5200
+2020-05-04 16:12:48.633000: I tensorflow/core/profiler/lib/profiler_session.cc:184] Profiler session started.
+ 13/671 [..............................] - ETA: 36s - loss: 0.6928 - accuracy: 0.53852020-05-04 16:12:48.654625: I tensorflow/core/platform/default/device_tracer.cc:588] Collecting 156 kernel records, 12 memcpy records.
+671/671 [==============================] - 1s 2ms/sample - loss: 0.7006 - accuracy: 0.5276 - val_loss: 0.6810 - val_accuracy: 0.5200
 Epoch 2/10
-671/671 [==============================] - 2s 2ms/sample - loss: 0.6500 - accuracy: 0.6066 - val_loss: 0.6825 - val_accuracy: 0.5467
+671/671 [==============================] - 1s 2ms/sample - loss: 0.6837 - accuracy: 0.5365 - val_loss: 0.6730 - val_accuracy: 0.5600
 Epoch 3/10
-671/671 [==============================] - 2s 3ms/sample - loss: 0.5804 - accuracy: 0.7049 - val_loss: 0.5893 - val_accuracy: 0.5733
+671/671 [==============================] - 1s 935us/sample - loss: 0.6528 - accuracy: 0.6051 - val_loss: 0.6545 - val_accuracy: 0.5333
 Epoch 4/10
-671/671 [==============================] - 1s 2ms/sample - loss: 0.4983 - accuracy: 0.7511 - val_loss: 0.5522 - val_accuracy: 0.7333
+671/671 [==============================] - 1s 1ms/sample - loss: 0.6583 - accuracy: 0.6110 - val_loss: 0.6327 - val_accuracy: 0.6000
 Epoch 5/10
-671/671 [==============================] - 1s 2ms/sample - loss: 0.4696 - accuracy: 0.7869 - val_loss: 0.5905 - val_accuracy: 0.6400
+671/671 [==============================] - 1s 1ms/sample - loss: 0.5945 - accuracy: 0.6542 - val_loss: 0.6089 - val_accuracy: 0.6133
 Epoch 6/10
-671/671 [==============================] - 1s 2ms/sample - loss: 0.3822 - accuracy: 0.8167 - val_loss: 0.6062 - val_accuracy: 0.6933
+671/671 [==============================] - 1s 1ms/sample - loss: 0.5692 - accuracy: 0.6870 - val_loss: 0.5857 - val_accuracy: 0.7067
 Epoch 7/10
-671/671 [==============================] - 1s 2ms/sample - loss: 0.3243 - accuracy: 0.8495 - val_loss: 0.5501 - val_accuracy: 0.7733
+671/671 [==============================] - 1s 1ms/sample - loss: 0.5375 - accuracy: 0.7124 - val_loss: 0.5842 - val_accuracy: 0.6533
 Epoch 8/10
-671/671 [==============================] - 2s 2ms/sample - loss: 0.2525 - accuracy: 0.8942 - val_loss: 0.5990 - val_accuracy: 0.7200
+671/671 [==============================] - 1s 1ms/sample - loss: 0.5069 - accuracy: 0.7437 - val_loss: 0.5274 - val_accuracy: 0.7600
 Epoch 9/10
-671/671 [==============================] - 2s 2ms/sample - loss: 0.2093 - accuracy: 0.9180 - val_loss: 0.8405 - val_accuracy: 0.7067
+671/671 [==============================] - 1s 1ms/sample - loss: 0.4337 - accuracy: 0.7794 - val_loss: 0.5205 - val_accuracy: 0.6933
 Epoch 10/10
-671/671 [==============================] - 3s 4ms/sample - loss: 0.2569 - accuracy: 0.8957 - val_loss: 0.7097 - val_accuracy: 0.7600
+671/671 [==============================] - 1s 1ms/sample - loss: 0.4247 - accuracy: 0.8003 - val_loss: 0.5707 - val_accuracy: 0.7067
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
